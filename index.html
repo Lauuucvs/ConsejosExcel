@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página brinda contenido sobre Excel a nivel básico 
+    e intermedio para que los usuarios puedan tener obtener conocimientos de manera accesible y fácil">
+    <title>Consejos de Excel</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav_logo">
+                <h2 class="nav_title">Consejos de Excel</h2>
+            </div>
+
+            <ul class="nav_link  nav_link--menu">
+                <li class="nav_items">
+                    <a href="index.html" class="nav_links">Inicio</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="consejos.html" class="nav_links">Consejos</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="tutoriales.html" class="nav_links">Tutoriales</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="plantillas.html" class="nav_links">Plantillas</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="contacto.html" class="nav_links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav_close" alt="Cerrar Menú" width="24" height="24" loading="lazy"> 
+            </ul>
+
+            <div class="nav_menu">
+                 <img src="./images/menu.svg" class="nav_img" alt="Abrir Menú" width="24" height="24" loading="lazy">
+            </div>
+        </nav>
+    </header>
+
+   <div class="carrusel"> <!-- Esto es para el carrusel de imágenes que tendrá en la página principal -->
+        <ul>
+           <li><img src="./images/slider1.jpg" alt="Slide"  loading="lazy"></li></li>
+           <li><img src="./images/slider2.jpg" alt="Slide"  loading="lazy"></li></li>
+           <li><img src="./images/slider3.jpg" alt="Slide"  loading="lazy"></li></li>
+           <li><img src="./images/slider4.jpg" alt="Slide"  loading="lazy"></li></li>
+        </ul>
+   </div>
+
+   <main> <!-- Secciones de la página-->
+      <section class="acerca"><!-- Sección que habla de ciertos temas que se aprenderán-->
+        <h2 class="subtitulo_acerca">¿Qué aprenderás en este sitio web?</h2>
+        <p class="sobre">Todo lo necesario desde un nivel básico hasta un nivel intermedio</p>
+
+        <div class="main">
+            <article class="main_iconos">
+                <img src="./images/formula.svg" class="icono" alt="Fórmula" width="64" height="64" loading="lazy">
+                <h3 class="main.titulo">Uso de fórmulas</h3>
+                <p class="parrafo">Aprenderás el uso de fórmulas para ser más eficiente
+                    y rápido en tu trabajo</p>
+            </article>
+
+            <article class="main_iconos">
+                <img src="./images/tabla.svg" class="icono" alt="Tabla" width="64" height="64" loading="lazy">
+                <h3 class="main.titulo">Creación de tablas</h3>
+                <p class="parrafo">Crearás tablas para ser más organizado
+                    con tu información</p>
+            </article>
+
+            <article class="main_iconos">
+                <img src="./images/grafico.svg" class="icono" alt="Gráfico" width="64" height="64" loading="lazy">
+                <h3 class="main.titulo">Gráficos</h3>
+                <p class="parrafo">Realizarás cualquier tipo de gráfico para 
+                    analizar de mejor manera los datos</p>
+            </article>
+        </div>
+      </section>
+
+      <!-- Testimonios de estudiantes que han usado la página-->
+      <section class="testimonio"> 
+        <div class="testimonio_contenedor container">
+            <img src="./images/leftarrow.svg" class="testimonio_arrow" id="before" alt="Flecha izquierda" width="32" height="32" loading="lazy">
+
+            <section class="testimonio_cuerpo testimony_body--show" data-id="1">
+                <div class="testimonio_texto">
+                    <h2 class="subtitle">Mi nombre es Julio Pérez, <span class="testimonio_curso">estudiante
+                            de Contabilidad.</span></h2>
+                    <p class="testimonio_opinion">Gracias a este blog he aprendido a utilizar las distintas fórmulas
+                        que hay en Excel. Antes me sentía desanimado por no tener muchos conocimientos sobre ello, 
+                        pero ahora he mejorado y me siento feliz de tener este recurso a mi alcance.
+                    </p>
+                </div>
+
+                <figure class="testimonio_imagen">
+                    <img src="./images/Julio.jpg" class="testimonio_img" alt="Persona" width="100" height="100" loading="lazy">
+                </figure>
+            </section>
+
+            <section class="testimonio_cuerpo" data-id="2">
+                <div class="testimonio_texto">
+                    <h2 class="subtitle">Mi nombre es Marcela Guido, <span class="testimonio_curso">estudiante
+                            de Administración.</span></h2>
+                    <p class="testimonio_opinion">Cuando entre a la universidad sentí miedo porque el primer
+                        día nos mencionaron que ibamos a utilizar mucho Excel, ahora gracias a este blog soy una de las
+                        personas que tiene más conocimientos de Excel.
+                    </p>
+                </div>
+
+                <figure class="testimonio_imagen">
+                    <img src="./images/Marcela.jpg" class="testimonio_img" alt="Persona" width="100" height="100" loading="lazy">
+                </figure>
+            </section>
+
+            <section class="testimonio_cuerpo" data-id="3">
+                <div class="testimonio_texto">
+                    <h2 class="subtitle">Mi nombre es Helen Peralta, <span class="testimonio_curso">estudiante
+                            de Finanzas.</span></h2>
+                    <p class="testimonio_opinion">Yo tenía conocimientos básicos de Excel y gracias a este sitio web
+                        he logrado aprender muchas más cosas.
+                    </p>
+                </div>
+
+                <figure class="testimonio_imagen">
+                    <img src="./images/Helen.jpg" class="testimonio_img" alt="Persona" width="100" height="100" loading="lazy">
+                </figure>
+            </section>
+
+            <section class="testimonio_cuerpo" data-id="4">
+                <div class="testimonio_texto">
+                    <h2 class="subtitle">Mi nombre es Luis Vargas, <span class="testimonio_curso">estudiante
+                            de Economía.</span></h2>
+                    <p class="testimonio_opinion">Estoy agradecido con este sitio web porque he logrado obtener
+                        más conocimientos de Excel y ahora empleo todo esto en mi trabajo.
+                    </p>
+                </div>
+
+                <figure class="testimonio_imagen">
+                    <img src="./images/Luis.jpg" class="testimonio_img" alt="Persona" width="100" height="100" loading="lazy">
+                </figure>
+            </section>
+
+            <img src="./images/rightarrow.svg" class="testimonio_arrow" id="next" alt="Flecha derecha" width="32" height="32" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Sección de preguntas frecuentes-->
+    <section class="preguntas contenedor">
+        <h2 class="subtitulo_preguntas">Preguntas frecuentes</h2>
+        <p class="preguntas_parrafo">A continuación, presentamos algunas de las preguntas que nuestros usuarios 
+            formulan con mayor frecuencia.</p>
+
+        <section class="preguntas_contenedor">
+            <article class="preguntas_padding">
+                <div class="preguntas_respuesta">
+                    <h3 class="preguntas_titulo">¿Cómo puedo empezar a usar Excel si soy principiante?
+                        <span class="preguntas_arrow">
+                            <img src="./images/arrow.svg" class="preguntas_img" alt="Flecha" loading="lazy">
+                        </span>
+                    </h3>
+
+                    <p class="preguntas_mostrar">Para empezar a usar Excel, abre la aplicación y familiarízate con la interfaz. 
+                        Comienza con la creación de una hoja de cálculo simple introduciendo datos en las celdas y practicando 
+                        con las funciones básicas como suma y promedio, explora las opciones de formato en la pestaña "Inicio" 
+                        para cambiar la apariencia de tu hoja de cálculo. A medida que te sientas más cómodo, experimenta con 
+                        funciones avanzadas, tablas dinámicas y gráficos para analizar y visualizar datos de manera efectiva.</p>
+                </div>
+            </article>
+
+            <article class="preguntas_padding">
+                <div class="preguntas_respuesta">
+                    <h3 class="preguntas_titulo">¿Cómo crear y formatear tablas en Excel?
+                        <span class="preguntas_arrow">
+                            <img src="./images/arrow.svg" class="preguntas_img" alt="Flecha" loading="lazy">
+                        </span>
+                    </h3>
+
+                    <p class="preguntas_mostrar">Selecciona el rango de datos que deseas convertir en tabla y presiona 
+                        Ctrl + T o selecciona "Insertar" y luego "Tabla". Para formatear, utiliza las opciones de "Diseño
+                         de tabla" para cambiar colores, estilos y añadir filas o columnas.</p>
+                </div>
+            </article>
+
+            <article class="preguntas_padding">
+                <div class="preguntas_respuesta">
+                    <h3 class="preguntas_titulo">¿Cómo puedo recuperar un archivo de Excel que no se guardó?
+                        <span class="preguntas_arrow">
+                            <img src="./images/arrow.svg" class="preguntas_img" alt="Flecha" loading="lazy">
+                        </span>
+                    </h3>
+
+                    <p class="preguntas_mostrar">Es muy común que ocurra este tipo de problemas, así que lo que debes
+                        de hacer es ir a "Archivo" > "Abrir" > "Recuperar libros no guardados".
+                         Excel guarda versiones temporales de tus archivos que puedes restaurar.</p>
+                </div>
+            </article>
+        </section>
+    </section>
+
+   </main>
+
+   <footer class="footer">
+    <section class="footer_container container">
+        <nav class="nav nav--footer">
+            <h2 class="footer_title">Consejos de Excel</h2>
+
+            <ul class="nav_link nav_link--footer">
+                <li class="nav_items">
+                    <a href="index.html" class="nav_linksfooter">Inicio</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="consejos.html" class="nav_linksfooter">Consejos</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="tutoriales.html" class="nav_linksfooter">Tutoriales</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="plantillas.html" class="nav_linksfooter">Plantillas</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="contacto.html" class="nav_linksfooter">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <section class="footer_copy container">
+        <div class="footer_social">
+            <a href="https://facebook.com/tuPerfil" target="_blank" class="footer_icons"><img src="./images/facebook.svg" class="footer_img" alt="Facebook" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.instagram.com/consejos_excel/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" class="footer_img" alt="Instagram" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.tiktok.com/@consejosdeexcel" target="_blank" class="footer_icons"><img src="./images/tiktok.svg" class="footer_img" alt="Tiktok" width="64" height="64" loading="lazy"></a>
+        </div>
+
+        <h3 class="footer_copyright">Todos los derechos reservados &copy; Grupo Excel 2024</h3>
+    </section>
+
+    <section class="footer_links container">
+        <ul class="footer_links_list">
+            <li><a href="politica-privacidad.html" class="footer_link">Política de Privacidad</a></li>
+            <li><a href="terminos-servicio.html" class="footer_link">Términos de Servicio</a></li>
+            <li><a href="avisos-legales.html" class="footer_link">Avisos Legales</a></li>
+        </ul>
+    </section>
+    
+</footer>
+
+
+  <script src="./js/slider.js" defer></script> <!--Enlazando los js con el html-->
+  <script src="./js/preguntas.js" defer></script>
+  <script src="./js/menu.js" defer></script>
+</body>
+</html>

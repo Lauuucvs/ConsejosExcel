@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contenido detallado sobre la función BuscarV.">
+    <title>Función BuscarV</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav_logo">
+                <h2 class="nav_title">Consejos de Excel</h2>
+            </div>
+
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items"><a href="index.html" class="nav_links">Inicio</a></li>
+                <li class="nav_items"><a href="consejos.html" class="nav_links">Consejos</a></li>
+                <li class="nav_items"><a href="tutoriales.html" class="nav_links">Tutoriales</a></li>
+                <li class="nav_items"><a href="plantillas.html" class="nav_links">Plantillas</a></li>
+                <li class="nav_items"><a href="contacto.html" class="nav_links">Contacto</a></li>
+                <img src="./images/close.svg" class="nav_close" alt="Cerrar Menú" width="24" height="24" loading="lazy"> 
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./images/menu.svg" class="nav_img" alt="Abrir Menú" width="24" height="24" loading="lazy">
+            </div>
+        </nav>
+    </header>
+
+    <main class="main_blog">
+        <article class="blog-post">
+            <h2>Uso de la Función BUSCARV en Excel</h2>
+            <p class="post-meta">Publicado el 21/07/2024 por Verónica Mendieta</p>
+            <img src="images/buscarv_excel.jpg" alt="Función BUSCARV en Excel" class="post-image">
+            <p>La función BUSCARV en Excel es una de las más utilizadas para buscar datos en una tabla de manera rápida y eficiente. En este post, aprenderás cómo utilizar la función BUSCARV.</p>
+
+            <h3>¿Qué es la Función BUSCARV?</h3>
+            <p>La función BUSCARV (Búsqueda Vertical) busca un valor en la primera columna de una tabla y devuelve un valor en la misma fila desde una columna que especifiques. La sintaxis es <code>=BUSCARV(valor_buscado, rango_tabla, número_columna, [coincidencia_exacta])</code>.</p>
+
+            <h3>Ejemplo Práctico</h3>
+            <p>Imagina que tienes una tabla de productos y quieres encontrar el precio de un producto específico. Utiliza BUSCARV para buscar el nombre del producto en la primera columna y devolver el precio desde la columna correspondiente.</p>
+
+            <h3>Evitar Errores con BUSCARV</h3>
+            <p>Para evitar errores comunes, asegúrate de que la primera columna de la tabla está ordenada y de que el valor buscado existe en esa columna. También puedes usar la función SI.ERROR para manejar errores.</p>
+
+            <h3>Video Tutorial</h3>
+            <p>Para una guía visual sobre cómo usar la función BUSCARV en Excel, mira el siguiente video:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AY25aFfiC4Q?si=6H9pGknmPraKcbSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+
+        <section class="comentarios contenedor2">
+            <h2 class="subtitulo_comentario2">Deja tu Comentario</h2>
+            <form id="comentarios_formulario2" class="comentarios_formulario">
+                <label for="nombre_comentario2">Nombre:</label>
+                <input type="text2" id="nombre_comentario2" name="nombre_comentario2" required class="comentarios_input2">
+                
+                <label for="comentario2">Comentario:</label>
+                <textarea id="comentario2" name="comentario2" rows="4" required class="comentarios_textarea2"></textarea>
+                
+                <button type="submit" class="comentarios_button2">Enviar</button>
+            </form>
+            
+            <div id="comentarios_lista2" class="comentarios_lista2">
+                <!-- Aquí se mostrarán los comentarios -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Consejos de Excel</h2>
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items"><a href="index.html" class="nav_linksfooter">Inicio</a></li>
+                    <li class="nav_items"><a href="consejos.html" class="nav_linksfooter">Consejos</a></li>
+                    <li class="nav_items"><a href="tutoriales.html" class="nav_linksfooter">Tutoriales</a></li>
+                    <li class="nav_items"><a href="plantillas.html" class="nav_linksfooter">Plantillas</a></li>
+                    <li class="nav_items"><a href="contacto.html" class="nav_linksfooter">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://facebook.com/tuPerfil" target="_blank" class="footer_icons"><img src="./images/facebook.svg" class="footer_img" alt="Facebook" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.instagram.com/consejos_excel/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" class="footer_img" alt="Instagram" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.tiktok.com/@consejosdeexcel" target="_blank" class="footer_icons"><img src="./images/tiktok.svg" class="footer_img" alt="Tiktok" width="64" height="64" loading="lazy"></a>
+            </div>
+            <h3 class="footer_copyright">Todos los derechos reservados &copy; Grupo Excel 2024</h3>
+        </section>
+
+        <section class="footer_links container">
+            <ul class="footer_links_list">
+                <li><a href="politica-privacidad.html" class="footer_link">Política de Privacidad</a></li>
+                <li><a href="terminos-servicio.html" class="footer_link">Términos de Servicio</a></li>
+                <li><a href="avisos-legales.html" class="footer_link">Avisos Legales</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/comentarios2.js" defer></script>
+</body>
+</html>

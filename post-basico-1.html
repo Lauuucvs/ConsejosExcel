@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introducción a Excel.">
+    <title>Introducción a Excel</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav_logo">
+                <h2 class="nav_title">Consejos de Excel</h2>
+            </div>
+
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items"><a href="index.html" class="nav_links">Inicio</a></li>
+                <li class="nav_items"><a href="consejos.html" class="nav_links">Consejos</a></li>
+                <li class="nav_items"><a href="tutoriales.html" class="nav_links">Tutoriales</a></li>
+                <li class="nav_items"><a href="plantillas.html" class="nav_links">Plantillas</a></li>
+                <li class="nav_items"><a href="contacto.html" class="nav_links">Contacto</a></li>
+                <img src="./images/close.svg" class="nav_close" alt="Cerrar Menú" width="24" height="24" loading="lazy"> 
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./images/menu.svg" class="nav_img" alt="Abrir Menú" width="24" height="24" loading="lazy">
+            </div>
+        </nav>
+    </header>
+
+    <main class="main_blog">
+        <article class="blog-post">
+            <h2>Introducción a Excel</h2>
+            <p class="post-meta">Publicado el 15/07/2024 por Cristhian Díaz</p>
+            <img src="images/introduccion_excel.jpg" alt="Introducción a Excel" class="post-image">
+            <p>Excel es una herramienta poderosa de Microsoft que se utiliza para organizar, analizar y manipular datos. En esta guía introductoria, aprenderás las funciones básicas de Excel y cómo puedes empezar a usarlo de manera efectiva.</p>
+
+            <h3>¿Qué es Excel?</h3>
+            <p>Excel es un programa de hojas de cálculo que forma parte del paquete de software Microsoft Office. Permite a los usuarios crear y editar hojas de cálculo que pueden incluir fórmulas, gráficos y tablas para analizar datos.</p>
+
+            <h3>Interfaz de Usuario</h3>
+            <p>Al abrir Excel, encontrarás una interfaz con una cinta de opciones en la parte superior, una barra de fórmulas y una cuadrícula de celdas donde puedes introducir datos. Familiarízate con estos elementos básicos para comenzar a trabajar en Excel.</p>
+
+            <h3>Funciones Básicas</h3>
+            <p>Excel ofrece muchas funciones básicas que pueden ayudarte a empezar, como la suma automática, la creación de gráficos y el formato de celdas. A medida que te sientas más cómodo, puedes explorar funciones más avanzadas.</p>
+
+            <h3>Primeros Pasos</h3>
+            <p>Para empezar a usar Excel, abre el programa y crea una nueva hoja de cálculo. Introduce algunos datos en las celdas y prueba con fórmulas básicas como SUMA y PROMEDIO. No tengas miedo de experimentar y explorar todas las opciones que Excel tiene para ofrecer.</p>
+            
+            <h3>Video Tutorial</h3>
+            <p>Para una guía visual sobre cómo comenzar con Excel, mira el siguiente video:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MlIMXbA5bRQ?si=yywkCuUFPC5YL6Ca" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+
+        <section class="comentarios contenedor2">
+            <h2 class="subtitulo_comentario2">Deja tu Comentario</h2>
+            <form id="comentarios_formulario2" class="comentarios_formulario">
+                <label for="nombre_comentario2">Nombre:</label>
+                <input type="text2" id="nombre_comentario2" name="nombre_comentario2" required class="comentarios_input2">
+                
+                <label for="comentario2">Comentario:</label>
+                <textarea id="comentario2" name="comentario2" rows="4" required class="comentarios_textarea2"></textarea>
+                
+                <button type="submit" class="comentarios_button2">Enviar</button>
+            </form>
+            
+            <div id="comentarios_lista2" class="comentarios_lista2">
+                <!-- Aquí se mostrarán los comentarios -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Consejos de Excel</h2>
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items"><a href="index.html" class="nav_linksfooter">Inicio</a></li>
+                    <li class="nav_items"><a href="consejos.html" class="nav_linksfooter">Consejos</a></li>
+                    <li class="nav_items"><a href="tutoriales.html" class="nav_linksfooter">Tutoriales</a></li>
+                    <li class="nav_items"><a href="plantillas.html" class="nav_linksfooter">Plantillas</a></li>
+                    <li class="nav_items"><a href="contacto.html" class="nav_linksfooter">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://facebook.com/tuPerfil" target="_blank" class="footer_icons"><img src="./images/facebook.svg" class="footer_img" alt="Facebook" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.instagram.com/consejos_excel/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" class="footer_img" alt="Instagram" width="64" height="64" loading="lazy"></a>
+                <a href="https://www.tiktok.com/@consejosdeexcel" target="_blank" class="footer_icons"><img src="./images/tiktok.svg" class="footer_img" alt="Tiktok" width="64" height="64" loading="lazy"></a>
+            </div>
+            <h3 class="footer_copyright">Todos los derechos reservados &copy; Grupo Excel 2024</h3>
+        </section>
+
+        <section class="footer_links container">
+            <ul class="footer_links_list">
+                <li><a href="politica-privacidad.html" class="footer_link">Política de Privacidad</a></li>
+                <li><a href="terminos-servicio.html" class="footer_link">Términos de Servicio</a></li>
+                <li><a href="avisos-legales.html" class="footer_link">Avisos Legales</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/comentarios2.js" defer></script>
+</body>
+</html>

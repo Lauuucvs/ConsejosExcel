@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog de Consejos de Excel con contenido básico e intermedio para usuarios.">
+    <title>Blog</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav_logo">
+                <h2 class="nav_title">Consejos de Excel</h2>
+            </div>
+
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items"><a href="index.html" class="nav_links">Inicio</a></li>
+                <li class="nav_items"><a href="consejos.html" class="nav_links">Consejos</a></li>
+                <li class="nav_items"><a href="tutoriales.html" class="nav_links">Tutoriales</a></li>
+                <li class="nav_items"><a href="plantillas.html" class="nav_links">Plantillas</a></li>
+                <li class="nav_items"><a href="contacto.html" class="nav_links">Contacto</a></li>
+                <img src="./images/close.svg" class="nav_close" alt="Cerrar Menú" width="24" height="24" loading="lazy"> 
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./images/menu.svg" class="nav_img" alt="Abrir Menú" width="24" height="24" loading="lazy">
+            </div>
+        </nav>
+    </header>
+
+     <!-- Barra de búsqueda -->
+     <section class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar artículos..." class="search-input">
+        <button type="button" id="searchButton" class="search-button">Buscar</button>
+    </section>
+
+    <section id="searchResults"></section>
+
+    <main>
+        <section class="blog-intro">
+            <h1>Blog de Consejos de Excel</h1>
+            <p>Bienvenido a nuestro blog donde encontrarás consejos y tutoriales sobre Excel, organizados en niveles básico e intermedio.</p>
+        </section>
+
+        <!-- Sección para Consejos Básicos -->
+        <section class="blog-category">
+            <h2>Nivel Básico</h2>
+
+            <article class="blog-categ">
+                <h3>Introducción a Excel</h3>
+                <p>Fecha de publicación: 15/07/2024</p>
+                <p>¿Crees que empezar a usar Excel es difícil? Nosotros te ayudaremos, es por ello que aquí encontrarás
+                    una introducción a Excel.
+                </p>
+                <a href="./post-basico-1.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Creación de Tablas en Excel</h3>
+                <p>Fecha de publicación: 16/07/2024</p>
+                <p>Las tablas son muy utilizadas en Excel. En esta guía, aprenderás a crear y formatear tablas en Excel..</p>
+                <a href="post-básico-2.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Uso de Fórmulas en Excel</h3>
+                <p>Fecha de publicación: 17/07/2024</p>
+                <p>Las fórmulas son unas de las herramientas más poderosas en Excel, descubre las más básicas en este post.</p>
+                <a href="post-básico-3.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Cómo Crear Gráficos en Excel</h3>
+                <p>Fecha de publicación: 18/07/2024</p>
+                <p>Los gráficos en Excel son una excelente manera de visualizar datos y hacer que tus informes se vean profesionales.</p>
+                <a href="post-básico-4.html" class="read-more">Leer más</a>
+            </article>
+        </section>
+
+        <!-- Sección para Consejos Intermedios -->
+        <section class="blog-category">
+            <h2>Nivel Intermedio</h2>
+            <article class="blog-categ">
+                <h3>Uso de Funciones Lógicas en Excel</h3>
+                <p>Fecha de publicación: 19/07/2024</p>
+                <p>Las funciones lógicas en Excel son una herramienta poderosa que te permite tomar decisiones basadas en condiciones específicas.</p>
+                <a href="post-intermedio-1.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Tablas Dinámicas en Excel</h3>
+                <p>Fecha de publicación: 20/07/2024</p>
+                <p>Las tablas dinámicas en Excel te permiten resumir, analizar y explorar grandes cantidades de datos de manera interactiva.</p>
+                <a href="post-intermedio-2.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Uso de la Función BUSCARV en Excel</h3>
+                <p>Fecha de publicación: 21/07/2024 </p>
+                <p>La función BUSCARV en Excel es una de las más utilizadas para buscar datos en una tabla de manera rápida y eficiente.</p>
+                <a href="post-intermedio-3.html" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-categ">
+                <h3>Análisis de Datos con Excel</h3>
+                <p>Fecha de publicación: 22/07/2024</p>
+                <p>El análisis de datos en Excel te permite obtener insights valiosos a partir de tus datos. Aquí te mostramos algunas técnicas avanzadas para llevar a cabo un análisis de datos eficaz.</p>
+                <a href="post-intermedio-4.html" class="read-more">Leer más</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Consejos de Excel</h2>
+    
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items">
+                        <a href="index.html" class="nav_linksfooter">Inicio</a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="consejos.html" class="nav_linksfooter">Consejos</a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="tutoriales.html" class="nav_linksfooter">Tutoriales</a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="plantillas.html" class="nav_linksfooter">Plantillas</a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="contacto.html" class="nav_linksfooter">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </section>
+    
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://facebook.com/tuPerfil" target="_blank" class="footer_icons"><img src="./images/facebook.svg" class="footer_img" alt="Facebook" width="64" height="64" loading="lazy"></a>
+                    <a href="https://www.instagram.com/consejos_excel/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" class="footer_img" alt="Instagram" width="64" height="64" loading="lazy"></a>
+                    <a href="https://www.tiktok.com/@consejosdeexcel" target="_blank" class="footer_icons"><img src="./images/tiktok.svg" class="footer_img" alt="Tiktok" width="64" height="64" loading="lazy"></a>
+            </div>
+    
+            <h3 class="footer_copyright">Todos los derechos reservados &copy; Grupo Excel 2024</h3>
+        </section>
+
+        <section class="footer_links container">
+            <ul class="footer_links_list">
+                <li><a href="politica-privacidad.html" class="footer_link">Política de Privacidad</a></li>
+                <li><a href="terminos-servicio.html" class="footer_link">Términos de Servicio</a></li>
+                <li><a href="avisos-legales.html" class="footer_link">Avisos Legales</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/buscar.js" defer></script>
+</body>
+</html>
