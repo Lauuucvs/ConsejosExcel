@@ -1622,3 +1622,330 @@ section {
         margin-bottom: 10px;
     }
 }
+
+/* Responsive para pantallas menores de 441px */
+@media (max-width: 441px) { 
+
+    /* Hero */
+    .hero_title {
+        font-size: 1.5rem;
+    }
+
+    .hero_paragraph {
+        font-size: 0.8rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .nav_link--show {
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    /* Carrusel */
+    .carrusel {
+        width: 100%;
+    }
+
+    .carrusel img {
+        width: 100%;
+    }
+
+    /* Main (Acerca, etc.) */
+    .main {
+        gap: 1em;
+        width: 100%;
+        padding: 15px;
+        grid-template-columns: 1fr;
+    }
+
+    .main_iconos {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Testimonios */
+    .testimonio_contenedor {
+        grid-template-columns: 1fr;
+        gap: 0.5em;
+    }
+
+    .testimonio_cuerpo {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 0.5em;
+    }
+
+    .testimonio_img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testimonio_arrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .testimonio_opinion {
+        font-size: 0.8rem; 
+        padding: 0 8px; /* Agrega padding para mejorar la legibilidad */
+    }
+
+    .testimonio_curso {
+        background-color: rgb(20, 133, 39);
+        color: white;
+        display: inline-block;
+        padding: 6px; 
+        font-size: 0.8rem; 
+        border-radius: 4px; /* Asegura que el borde siga siendo redondeado */
+    }
+
+    /* Preguntas */
+    .preguntas_titulo {
+        font-size: 1.2rem;
+    }
+
+    .preguntas_parrafo {
+        font-size: 0.9rem;
+    }
+
+    .preguntas_respuesta {
+        font-size: 0.9rem;
+    }
+
+    .preguntas_arrow {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Footer */
+    .footer_title {
+        font-size: 1.2rem;
+    }
+
+    .nav--footer {
+        padding-bottom: 50px;
+    }
+
+    .nav_link--footer {
+        justify-content: space-between;
+    }
+
+    .footer_copy {
+        font-size: 0.8rem;
+    }
+
+    .footer_copyright {
+        font-size: 0.8rem;
+    }
+
+    .footer_icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_img {
+        width: 20px;
+        margin: 8px;
+    }
+
+    .subtitulo_plantilla {
+        font-size: 1.5rem; 
+    }
+
+    .sobre {
+        font-size: 0.8rem; 
+    }
+
+    .footer_links {
+        margin-top: 8px;
+    }
+
+    .footer_links_list {
+        padding: 0;
+    }
+
+    .footer_links_list li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .politicas h2 {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    .politicas p {
+        font-size: 12px;
+        margin-bottom: 6px;
+        margin-top: 3px;
+    }
+
+    /* Plantillas */
+    .plantillas_lista {
+        gap: 15px; 
+    }
+
+    .plantilla_item {
+        width: 100%; 
+        max-width: 85%; 
+        padding: 8px; 
+    }
+
+    .plantilla_enlace {
+        font-size: 0.9rem; 
+    }
+
+    .plantilla_descripcion {
+        font-size: 0.7rem; 
+    }
+
+    /* Contacto */
+    .contacto {
+        padding: 15px 8px; 
+        max-width: 100%; 
+    }
+
+    .subtitulo_contacto {
+        font-size: 1.2rem;
+    }
+
+    .contacto_descripcion {
+        font-size: 0.7rem; 
+        margin-bottom: 15px; 
+    }
+
+    .contacto_button {
+        font-size: 0.9rem;
+    }
+
+    .contacto_informacion p {
+        font-size: 0.8rem; 
+    }
+
+    .footer_social {
+        flex-direction: column; 
+        gap: 4px; 
+    }
+
+    .footer_icons img {
+        width: 25px; 
+        height: 25px; 
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    /* Tutoriales */
+    .tutoriales {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .subtitulo_tutorial {
+        font-size: 1.5rem;
+    }
+
+    .tutoriales_descripcion {
+        font-size: 0.9rem;
+    }
+
+    .nivel_titulo {
+        font-size: 1.2rem;
+    }
+
+    .tutorial_item {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .tutorial_titulo {
+        font-size: 0.9rem;
+    }
+
+    .tutorial_descripcion {
+        font-size: 0.7rem;
+    }
+
+    .comentarios_formulario {
+        gap: 8px;
+    }
+
+    .comentarios_input, .comentarios_textarea {
+        font-size: 0.8em;
+    }
+
+    .comentarios_button {
+        font-size: 0.8em;
+    }
+
+    /* Blog - Consejos */
+    .blog-intro h1 {
+        font-size: 1.2rem;
+    }
+
+    .blog-intro p {
+        font-size: 0.9rem;
+    }
+
+    .blog-category h2 {
+        font-size: 1rem;
+    }
+
+    .blog-categ h3 {
+        font-size: 0.8rem;
+    }
+
+    .blog-post h2 {
+        font-size: 1.4em;
+    }
+
+    .blog-post h3 {
+        font-size: 1em;
+    }
+
+    .post-image {
+        max-width: 100%;
+    }
+
+    .blog-post iframe {
+        max-width: 100%;
+    }
+
+    .comentarios_input2, .comentarios_textarea2 {
+        font-size: 0.8em;
+    }
+
+    .comentarios_button2 {
+        font-size: 0.8em;
+    }
+
+    /* Barra de búsqueda */
+    .search-bar {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+
+    .search-input,
+    .search-button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Servicios, legales, políticas */
+    .footer_links_list {
+        display: block;
+        margin-top: 8px;
+    }
+
+    .footer_links_list li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}
