@@ -1627,8 +1627,8 @@ section {
 @media (max-width: 441px) { 
 
     /* Hero */
-    .hero_title {
-        font-size: 1.5rem;
+    .nav_title {
+        font-size: 2rem;
     }
 
     .hero_paragraph {
@@ -1658,13 +1658,17 @@ section {
     .main {
         gap: 1em;
         width: 100%;
-        padding: 15px;
+        padding: 10px;
         grid-template-columns: 1fr;
     }
 
     .main_iconos {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .acerca sobre{
+        font-size: 1.5rem;
     }
 
     /* Testimonios */
