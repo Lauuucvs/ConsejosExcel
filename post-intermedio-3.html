@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN"><!-- Para prevenir clickjacking -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff"><!-- Para evitar el rastreo del tipo de contenido -->
+    <meta name="referrer" content="no-referrer-when-downgrade"><!-- Controla cuánta información se incluye en el encabezado referer-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://trusted-scripts.com; style-src 'self' https://trusted-styles.com;"><!--Establecer la política de seguridad de contenido -->
     <meta name="description" content="Contenido detallado sobre la función BuscarV.">
     <title>Función BuscarV</title>
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
